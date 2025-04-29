@@ -1,0 +1,66 @@
+* {
+  padding: 0;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(185, 185, 185);
+}
+.mainClass {
+  width: 1440px;
+  height: 348px;
+  background-color: rgba(255, 255, 255, 1);
+  display: flex;
+  margin-top: 150px;
+}
+/* როგორ გავცენტრო ვერტიკალურად დისფლეი ფლექსით ( ვერ ვქენი ვერაფრის დიდებით და მაგიტომ გამოვიყენე margin-top: 150px */
+.firstsideClass {
+  background-color: rgba(247, 246, 245, 1);
+  margin-left: 165px;
+  width: 555px;
+  height: 347px;
+}
+
+.secondsideClass {
+  width: 555px;
+  height: 348px;
+  margin-right: 165px;
+}
+h1 {
+  font-family: "Noto Sans Georgian", sans-serif;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 32px;
+  letter-spacing: 4%;
+  width: 398px;
+  height: 64px;
+  color: rgba(58, 56, 69, 1);
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 64px;
+  margin-left: 78.5px;
+}
+.smallWritting {
+  font-family: "Noto Sans Georgian", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(89, 86, 103, 1);
+  margin-top: 24px;
+  text-align: center;
+  width: 389px;
+  height: 59px;
+}
+.shopnowClass {
+  color: rgba(58, 56, 69, 1);
+  font-weight: 700;
+  font-family: "Noto Sans Georgian", sans-serif;
+  font-size: 14px;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-weight: 700;
+  width: 84px;
+  height: 10px;
+  padding-top: 32px;
+  text-decoration: underline;
+}
